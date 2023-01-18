@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>This is an application for managing maintenance tasks of Terminal 4 Kuwait</h1>
   </div>
 </template>
 

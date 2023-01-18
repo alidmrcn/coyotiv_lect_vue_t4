@@ -1,10 +1,11 @@
 <script setup>
 import WelcomeItem from './welcome-item.vue'
 import DocumentationIcon from './icons/icon-documentation.vue'
-import ToolingIcon from './icons/icon-tooling.vue'
-import EcosystemIcon from './icons/icon-ecosystem.vue'
-import CommunityIcon from './icons/icon-community.vue'
-import SupportIcon from './icons/icon-support.vue'
+
+// import ToolingIcon from './icons/icon-tooling.vue'
+// import EcosystemIcon from './icons/icon-ecosystem.vue'
+// import CommunityIcon from './icons/icon-community.vue'
+// import SupportIcon from './icons/icon-support.vue'
 </script>
 
 <template>
@@ -18,7 +19,7 @@ import SupportIcon from './icons/icon-support.vue'
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
     provides you with all information you need to get started.
   </WelcomeItem>
-
+  <!-- 
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
@@ -35,9 +36,9 @@ import SupportIcon from './icons/icon-support.vue'
     <br />
 
     More instructions are available in <code>README.md</code>.
-  </WelcomeItem>
+  </WelcomeItem> -->
 
-  <WelcomeItem>
+  <!-- <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
@@ -76,5 +77,5 @@ import SupportIcon from './icons/icon-support.vue'
 
     As an independent project, Vue relies on community backing for its sustainability. You can help us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
+  </WelcomeItem> -->
 </template>
